@@ -1,0 +1,20 @@
+.card {
+    border-radius: var(--radius);
+    border: 1px solid transparent;
+    border-color: rgba(255, 255, 255, 0.3);
+    padding: 8px 16px;
+
+    display: flex;
+    flex-direction: column;
+
+    transition: border-color 0.3s ease-out;
+}
+
+.card--center {
+    place-content: center;
+    place-items: center;
+}
+
+.card:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+}

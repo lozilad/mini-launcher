@@ -1,0 +1,11 @@
+.link {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.link--truncate {
+    display: inline-block;
+    width: 200px;
+}

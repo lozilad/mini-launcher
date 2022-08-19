@@ -1,0 +1,27 @@
+:root {
+  --color-dark: #282c34;
+  --color-white: white;
+  --color-hightlight: #61dafb;
+
+  --radius: 9px;
+}
+
+body {
+  background: var(--color-dark);
+  color: var(--color-white);
+  /* Electron window can be dragged */
+  -webkit-app-region: drag;
+}
+
+a, button {
+  -webkit-app-region: no-drag;
+}
+
+.window-no-drag {
+  -webkit-app-region: no-drag;
+}
+
+a {
+  color: var(--color-hightlight);
+  text-decoration: none;
+}

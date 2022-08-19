@@ -1,0 +1,13 @@
+.button {
+    background: var(--color-hightlight);
+    color: var(--color-white);
+    padding: 8px 16px;
+    border-radius: var(--radius);
+    cursor: pointer;
+}
+
+.button--outline {
+    background: transparent;
+    color: var(--color-hightlight);
+    border: 1px solid var(--color-hightlight);
+}
