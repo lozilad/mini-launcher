@@ -9,19 +9,31 @@
 body {
   background: var(--color-dark);
   color: var(--color-white);
-  /* Electron window can be dragged */
-  -webkit-app-region: drag;
 }
 
-a, button {
-  -webkit-app-region: no-drag;
+/* Electron window can be dragged */
+.window-can-drag {
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
 }
 
 .window-no-drag {
   -webkit-app-region: no-drag;
 }
 
+
 a {
   color: var(--color-hightlight);
   text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: blueviolet;
+  cursor: pointer;
+  user-select: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: purple;
 }

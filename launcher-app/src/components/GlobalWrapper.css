@@ -1,0 +1,29 @@
+.global__wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.global__titlebar {
+    background: var(--color-dark);
+    flex-basis: 32px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    cursor: pointer;
+
+    padding: 0 32px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.global__titlebar-title {
+    display: inline-block;
+    color: gray;
+    /* margin-top: 4px; */
+}
+.global__main {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: calc(100% - 32px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
