@@ -13,12 +13,12 @@
     padding: 0 32px;
     display: flex;
     align-items: flex-end;
-    
+    justify-content: center;
 }
 .global__titlebar-title {
     display: inline-block;
+    align-self: center;
     color: gray;
-    /* margin-top: 4px; */
 }
 .global__main {
     flex-grow: 1;
